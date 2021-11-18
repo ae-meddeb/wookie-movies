@@ -1,0 +1,23 @@
+.category {
+    padding: 0 20px;
+}
+.category .title {
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+.category-movies {
+    display: flex;
+    gap: 20px;
+}
+.movie-tuile {
+    min-width: 250px;
+    height: 140px;
+    background-size: cover;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.movie-tuile:hover {
+    transform: scale(1.1);
+}
